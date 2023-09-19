@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: node-app-argo-application
-  namespace: argocd
+  namespace: cicd
 spec:
   project: default
 
